@@ -1,0 +1,218 @@
+@media (max-width: 572px) {
+    .mq1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .txt-short {
+        font-size: 10.5rem;
+    }
+    .txt-1 {
+        font-size: 9rem;
+        text-align: center;
+    }
+    .txt-2 {
+        color: rgb(102, 94, 94);
+        font-size: 4.3rem;
+        text-align: center;
+    }
+    .btn-1 {
+        background-color: rgb(148, 138, 138);
+        color: white;
+        padding: 0.9rem 1rem;
+        border-radius: 2rem;
+        justify-content: center;
+        display: flex;
+        font-size: 3rem;
+        margin: 3rem 37rem;
+    }
+    .img-size {
+        width: 98rem;
+        border: none;
+    }
+    .btn-2 {
+        margin-top: 2rem;
+        margin-left: 10rem;
+        border-radius: 0.5rem;
+        width: 77rem;
+        text-decoration: none;
+        padding: 1rem 0 0 0.3rem;
+        font-size: 5rem;
+        border-radius: 2rem !important;
+        text-align: center;
+    }
+    .srch-2{
+        margin-left: 10rem;
+        width: 77rem !important;
+        padding: 2rem 0 !important;
+        font-size: 4rem !important;
+        border-radius: 2rem !important;
+    }
+    .extra-hidden{
+        color: black;
+        justify-content: space-between;
+        text-align: right;  
+        font-size: 3rem;
+    }
+    .extra-hidden button{
+        display: none;
+        padding: 3rem 1rem;
+        border-radius: .3rem;
+    }
+    .mq-2{
+        font-size: 7rem;
+        margin: 10rem  0 2rem 0;
+    }
+    .track-1{
+        font-size: 3rem;
+        color: rgb(102, 94, 94);
+        margin-bottom: 15rem;
+    }
+    .card-body{
+        font-size: 5rem;
+        text-align: center;
+        width: 70rem;
+    }
+    .crd-1{
+        margin-left: 25rem;
+        
+    }
+    .h1-lst{
+        font-size: 5rem;
+        
+    }
+    .lst-1 {
+        padding: 20rem;
+    }
+    .btn-3 {
+        padding: 2.5rem 14rem;
+        border-radius: 5rem;
+        background-color: rgb(189, 189, 180);
+        color: white;
+        font-size: 3rem;
+    }
+    .ft-txt-1{
+        margin-left: 11rem;
+        font-size: 10rem;
+        margin-top: 5rem;
+        justify-content: center;
+        
+    }
+    .txt-c{
+        position: relative;
+        padding: 22rem;
+        padding-bottom: 150rem !important;
+    }
+    .ft{
+        position: absolute;
+        align-items: center;
+        text-align: center;
+    }
+    .ft-1{
+        margin-top: 26rem;
+        left: 40rem;
+        font-size: 3rem;
+    }
+    .ft-2{
+        margin-top: 69rem;
+        left: 38rem;
+        font-size: 3rem;
+    }
+    .ft-3{
+        margin-top: 105rem;
+        left: 34rem;
+        font-size: 3rem;
+    }
+    .ft-4{
+        margin-top: 145rem;
+        left: 36rem;
+    }
+    .htg{
+        font-size: 6rem;
+        position: absolute;
+        top: -5rem;
+        right: -5rem;
+    }
+    .htg2{
+        font-size: 6rem;
+        position: absolute;
+        top: -6rem;
+        right: -9rem;
+    }
+    .htg3{
+        font-size: 6rem;
+        position: absolute;
+        top: -10rem;
+        right: -12rem;
+    }
+    .tp3{
+        margin-top: 1rem;
+        margin-left: 8rem;
+    }
+
+
+    .advertising {
+        margin-bottom: 5rem !important;
+        margin-top: 5rem !important;
+        gap: 10rem !important;
+        
+    }
+    .advertising .brand::after {
+        display: none;
+    }
+    .tp1{
+        margin-top: 2rem;
+    }
+    .tp2{
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    .reverse{
+        flex-wrap: wrap-reverse;
+    }
+    .advertising .advertising-item:before {
+        margin-left: 24rem;
+        width: 2rem;
+        height: 9.5rem;
+        width: 9.5rem;
+        top: -3rem;
+    }
+
+    }
+
+@media (max-width: 990px){
+    .advertising .brand::after {
+        display: none;
+    }
+} 
+
+
+@media (max-width:984px){
+    .advertising .advertising-item:before {
+        left: 13rem;
+    }
+}
+
+@media (max-width:765px){
+    .advertising .advertising-item:before {
+        left: 18rem;
+    }
+
+}
+@media (max-width:569px){
+    .advertising .advertising-item:before {
+        left: -2rem;
+    }
+}
+@media (max-width:406px){
+    .advertising .advertising-item:before {
+        left: 11rem;
+    }
+
+}
+
+
+
+
+
+

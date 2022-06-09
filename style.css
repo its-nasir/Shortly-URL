@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 1vw;
+}
+body {
+  font-family: "Poppins", "sans-serif" !important;
+}
+.txt-short {
+  font-size: 2.5rem;
+}
+.nav-txt {
+  font-size: 0.9rem;
+}
+.a-tag,
+.btn-1 {
+  text-decoration: none;
+}
+.sign-box {
+  border: 2px solid;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  border-radius: 5rem;
+  background-color: rgb(148, 138, 138);
+  color: white;
+}
+.Login {
+  color: black;
+}
+.card-body {
+  border: none !important;
+}
+/* nav done  */
+.txt-1 {
+  font-size: 4rem;
+}
+.img-size {
+  width: 30rem;
+  border: none;
+}
+.start-1 {
+  padding-top: 4rem;
+}
+.txt-2 {
+  color: rgb(102, 94, 94);
+  font-size: 1.3rem;
+}
+.btn-1 {
+  background-color: rgb(148, 138, 138);
+  color: white;
+  padding: 0.9rem 1rem;
+  border-radius: 2rem;
+}
+/* done search start  */
+.srch-1 {
+  padding: 2rem;
+  border-radius: 0.7rem;
+  background-color: rgba(8, 1, 12, 0.486);
+  background-image: url("./images/bg-shorten-desktop.svg");
+}
+.btn-2 {
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 0.5rem;
+  width: 6rem;
+  text-decoration: none;
+  padding: 0.5rem 0 0 0.3rem;
+}
+.btn-outline-success {
+    color: white !important;
+}
+.srch-2 {
+  width: 85%;
+}
+.stat {
+  text-align: center;
+}
+.track-1 {
+  font-size: 1rem;
+}
+/* 3rd img  */
+.img-2 {
+  width: 4rem;
+  background-color: hsl(257, 27%, 26%);
+  border-radius: 50%;
+  padding: 1rem;
+}
+.mr-top {
+  margin-top: 22rem;
+  padding: 2rem;
+}
+.card-1 {
+  margin-top: 6rem;
+}
+/* lst  */
+.lst-1 {
+  text-align: center;
+  background-image: url("./images/bg-shorten-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  background-color: rgb(102, 94, 94);
+  color: white;
+}
+.btn-3 {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  background-color: rgb(189, 189, 180);
+  color: white;
+}
+.txt-c {
+  color: white;
+  background-color: black;
+}
+/* end  */
+.advertising {
+  margin-bottom: 5rem !important;
+  margin-top: 5rem !important;
+}
+
+.advertising {
+display: flex;
+margin-top: 6.5rem;
+justify-content: center;
+align-items: flex-start;
+}
+.advertising .advertising-item {
+padding: 4.5rem 1.8rem 2.5rem;
+background-color: white;
+border-radius: 5px;
+max-width: 335px;
+position: relative;
+}
+.advertising .advertising-item:before {
+content: "";
+position: absolute;
+height: 5.5rem;
+width: 5.5rem;
+top: 0;
+transform: translateY(-50%);
+border-radius: 50%;
+background-color: #3b3054;
+}
+.advertising .advertising-item h3 {
+font-size: 22px;
+color: #35323e;
+}
+.advertising .advertising-item p {
+font-size: 15px;
+margin-top: 12px;
+}
+.advertising .brand::before {
+background-image: url(/images/icon-brand-recognition.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+.advertising .brand::after {
+content: "";
+position: absolute;
+top: 60%;
+right: -400px;
+height: 8px;
+width: 400px;
+background-color: #2acfcf;
+z-index: 0;
+}
+.advertising .record {
+margin: 2.5rem 2rem 0;
+}
+.advertising .record::before {
+background-image: url(/images/icon-detailed-records.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+.advertising .custom {
+margin-top: 5rem;
+}
+.advertising .custom::before {
+background-image: url(/images/icon-fully-customizable.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+
+/* footer  */
+.ft-txt {
+  text-align: center;
+}
+.crd {
+  border: none;
+}
+/* Hidden Part  */
+.extra-hidden {
+  color: black;
+  border-radius: 0.4rem;
+  justify-content: space-between;
+  text-align: right;
+}
+.extra-hidden button {
+  padding: 0.2rem 1rem;
+  border-radius: 0.3rem;
+}
+.js_tag {
+  justify-content: flex-end;
+}
+
+/* ****************************** */
+
