@@ -205,6 +205,42 @@ background-position: center;
 .js_tag {
   justify-content: flex-end;
 }
+.navbar-brand{
+  font-size: 2rem !important;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 3.5rem !important;
+  line-height: 1.5em !important;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow .15s ease-in-out;
+}
+
+.url_1{
+  display: none;
+}
+.url_hdn{
+  color: rgba(255, 0, 0, 0.692);
+  font-size: 1rem;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.stick{
+  /* position: fixed !important; */
+  position: sticky !important;
+  background-color: white;
+  width: 100%;
+  top: 0%;
+  z-index: 100;
+  padding: 0 2rem !important;
+}
+
+
+
 
 /* ****************************** */
 

@@ -177,8 +177,37 @@
         width: 9.5rem;
         top: -3rem;
     }
+    .ft-4{
+        position: absolute;
+        gap: 4rem;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -4rem;
+    }
+    .navbar-brand {
+        font-size: 7rem !important;
+    }
+    .nav-link{
+        font-size: 3rem;
+    }
+    .btn{
+        font-size: 3rem !important;
+    }
+    /* .url_hdn{
+
+    } */
+    .url_hdn{
+        font-size: 5rem;
+        
+        
+    }
+
+
 
     }
+
+
+
 
 @media (max-width: 990px){
     .advertising .brand::after {

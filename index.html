@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
 
     <!-- Primary Meta Tags -->
 <title>Shortly URL</title>
@@ -60,33 +62,42 @@
     </style>
   </head>
   <body>
-    <main class="container  bg-light">
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid gap-4">
-          <h1 class=" txt-short"><b>Shortly</b></h1>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active nav-txt" aria-current="page" href="#"><b> Features</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-txt" href="#"><b> Pricing</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-txt" href="#"><b>Resources</b></a>
-              </li>
-            </ul>
-            <div class="navbar-text d-flex gap-4 header ">
-              <a class="a-tag Login" href="#"><b>Login</b></a>
-              <a class="a-tag sign-box" href="#"><b>Signup</b></a>
-            <div>
-              <div class="menu-icon">
-                <i class="open fas fa-bars"></i>
-                <i class="close fas fa-times"></i>
-              </div>
-          </div>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light stick  ">
+      <div class="container">
+        <p class="navbar-brand navtxt" href="#"><b>Shortly</b></p>
+        <button class="navbar-toggler navbtn " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Pricing</a>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"> Resources
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex gap-3 ">
+            <button class="btn rounded-pill" type="submit">Login</button>
+
+            <button class="btn rounded-pill text-white" style="background-color: hsl(180, 66%, 49%);" type="submit">
+              Sign
+              Up
+            </button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
+
+    <main class="container  bg-light">
 
                       <!-- start  -->
         <div class="row  start-1 ">
@@ -108,14 +119,15 @@
 
         <div class=" srch-1 mt-5">
             <form class="d-flex mq1" role="search">
-              <input class=" form-control srch-2 me-2" type="search" placeholder="   Shorten a link here..."  aria-label="Search">
+              <input id="search_bar" class=" form-control srch-2 me-2" type="search" placeholder="   Shorten a link here..."  aria-label="Search">
               <a  class="btn-2  btn-outline-success submit" " type="submit">Shorten it!</a>
             </form>
         </div>
+        <p class="url_1  url_hdn">Please add a link</p>
 
         <section class="hidden_div">
         </section>
-        <a target="_blank"  href=""></a>
+        <a href=""></a>
 
                   <!-- forjs -->
        
@@ -166,38 +178,38 @@
 
       <footer class="d-flex pt-5  txt-c  mb-3 ">
         <div  class="ft-txt col-4">
-          <h1 class="ft-txt ft-txt-1 ">Shortly</h1>
+          <h1 class="ft-txt ft-txt-1  pointer ">Shortly</h1>
         </div>
         <div class=" col-2 ft ft-1">
-          <h4 class="htg">Features</h4>
+          <h4 class="htg pointer">Features</h4>
           <div class="tp1">
-         <p class="p1">Link Shortening</p> 
-          <p class="p1">Branded Links</p>
-          <p class="p1">Analytics</p>
+         <p class="p1 pointer">Link Shortening</p> 
+          <p class="p1 pointer">Branded Links</p>
+          <p class="p1 pointer">Analytics</p>
         </div>
         </div>
         <div class="col-2 ft ft-2">
-          <h4 class="htg2">Resources</h4>
+          <h4 class="htg2 pointer">Resources</h4>
           <div class="tp2">
-         <p class="p2">Blog</p> 
-         <p class="p2">Developers</p>
-         <p class="p2">Support</p>
+         <p class="p2 pointer">Blog</p> 
+         <p class="p2 pointer">Developers</p>
+         <p class="p2 pointer">Support</p>
         </div>
         </div>
         <div class="col-2 ft ft-3">
-          <h4 class="htg3">Company</h4>
+          <h4 class="htg3 pointer">Company</h4>
           <div class="tp3">
-          <p>About</p>
-          <p>Our Team</p>
-          <p>Careers</p>
-          <p>Contact</p>
+          <p class="pointer">About</p>
+          <p class="pointer"> Our Team</p>
+          <p class="pointer">Careers</p>
+          <p class="pointer">Contact</p>
         </div>
         </div>
         <div class="ft ft-4 ">
-          <img class="img-1" src="./images/icon-facebook.svg" alt="icon-facebook">
-          <img src="./images/icon-twitter.svg" alt="icon-twitter">
-          <img src="./images/icon-pinterest.svg" alt="icon-pinterest">
-          <img src="./images/icon-instagram.svg" alt="icon-instagram">
+          <img class="img-1 pointer" src="./images/icon-facebook.svg" alt="icon-facebook">
+          <img class="img-1 pointer" src="./images/icon-twitter.svg" alt="icon-twitter">
+          <img class="img-1 pointer" src="./images/icon-pinterest.svg" alt="icon-pinterest">
+          <img class="img-1 pointer" src="./images/icon-instagram.svg" alt="icon-instagram">
         </div>
       </footer>
     </section>
