@@ -71,7 +71,10 @@
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+
+
+        <div class="collapse navbar-collapse top_box" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#">Features</a>
@@ -85,15 +88,18 @@
               </a>
             </li>
           </ul>
-          <form class="d-flex gap-3 ">
+          <form class="d-flex gap-3 text_btn ">
             <button class="btn rounded-pill" type="submit">Login</button>
-
-            <button class="btn rounded-pill text-white" style="background-color: hsl(180, 66%, 49%);" type="submit">
+            <button class="btn rounded-pill text-white " style="background-color: hsl(180, 66%, 49%);" type="submit">
               Sign
               Up
             </button>
           </form>
         </div>
+
+        
+
+
       </div>
     </nav>
 
@@ -106,7 +112,7 @@
                 <h1 class="card-title txt-1"><b>More than just shorter links</b></h1>
                 <p class="card-text txt-2"> <b>Build your brand’s recognition and get detailed insights 
                   on how your links are performing</b> </p>
-                <a  href="#" class="btn-1  "><b>Get Started</b></a>
+                <a  href="#" class="btn-1  "><b class="mq_btn">Get Started</b></a>
           </div>
           <div class="col-sm-6">
             <img class="img-size s" src="./images/illustration-working.svg" alt="">
@@ -120,14 +126,15 @@
         <div class=" srch-1 mt-5">
             <form class="d-flex mq1" role="search">
               <input id="search_bar" class=" form-control srch-2 me-2" type="search" placeholder="   Shorten a link here..."  aria-label="Search">
+              <p class="url_1  url_hdn"><i>Please add a link</i></p>
               <a  class="btn-2  btn-outline-success submit" " type="submit">Shorten it!</a>
             </form>
         </div>
-        <p class="url_1  url_hdn">Please add a link</p>
+        
 
         <section class="hidden_div">
         </section>
-        <a href=""></a>
+        <!-- <a  href=""></a> -->
 
                   <!-- forjs -->
        
@@ -176,7 +183,7 @@
       </div>
 
 
-      <footer class="d-flex pt-5  txt-c  mb-3 ">
+      <footer class="d-flex pt-5  txt-c ">
         <div  class="ft-txt col-4">
           <h1 class="ft-txt ft-txt-1  pointer ">Shortly</h1>
         </div>

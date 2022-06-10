@@ -10,12 +10,13 @@ let alldataS = [];
 var dataL = JSON.parse(localStorage.getItem("data"));
 if(dataL && dataL.length>=1){
   alldataS = [...dataL];
-    let elemDiv= '';
+  let randerD = link_input.innerHTML
+    let elemDiv=``;
     alldataS.forEach(elementt => {
-      elemDiv += ` <div class="shadow p-3 mb-5 bg-body rounded  load  extra-hidden mt-3 bg-light d-flex ">
-      ${elementt.url}
-      <a target="_blank" href="${elementt.S_url}" class="js_tag">${elementt.S_url}</a>
-      <button>Copy</button>
+      elemDiv += ` <div class="shadow  mb-2 bg-body  d-flex  load  extra-hidden mt-3 bg-light d-flex ">
+      <p class="urlName">${elementt.url}</p>
+            <a target="_blank" href="${elementt.S_url}" class="js_tag ">${elementt.S_url}</a>
+      <button class="copyBtn">Copy</button>
       </div>`;
     });
     hidden_div.innerHTML= elemDiv;
@@ -33,8 +34,9 @@ submit.addEventListener("click", (event) => {
   let APi = fetch(`https://api.shrtco.de/v2/shorten?url=${link_input.value}`)
   .then((res) => res.json())
   .then((data) => {
-    hidden_div.innerHTML += ` <div class="shadow p-3 mb-5 bg-body rounded  load  extra-hidden mt-3 bg-light d-flex ">
-    ${link_input.value}
+    hidden_div.innerHTML += ` <div class="shadow  mb-2 bg-body rounded  load  extra-hidden mt-3 bg-light d-flex ">
+    <p class="urlName">${link_input.value}</p>
+    
     <a href="${data.result.full_short_link}" class="js_tag">${data.result.full_short_link}</a>
     <button>Copy</button>
     </div>`;

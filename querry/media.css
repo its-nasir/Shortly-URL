@@ -16,9 +16,9 @@
         text-align: center;
     }
     .btn-1 {
-        background-color: rgb(148, 138, 138);
+        background-color: hsl(180, 66%, 49%);
         color: white;
-        padding: 0.9rem 1rem;
+        padding: 2.9rem 1rem;
         border-radius: 2rem;
         justify-content: center;
         display: flex;
@@ -30,34 +30,76 @@
         border: none;
     }
     .btn-2 {
-        margin-top: 2rem;
-        margin-left: 10rem;
+        margin-top: 3rem;
+        margin-left: 9rem;
         border-radius: 0.5rem;
-        width: 77rem;
+        width: 67.5rem;
         text-decoration: none;
-        padding: 1rem 0 0 0.3rem;
+        padding: 2rem 0 2rem 0.3rem;
         font-size: 5rem;
         border-radius: 2rem !important;
         text-align: center;
     }
     .srch-2{
-        margin-left: 10rem;
-        width: 77rem !important;
-        padding: 2rem 0 !important;
+        margin-top: -2rem;
+        margin-left: 9rem;
+        width: 68rem !important;
+        padding: 3rem 0 !important;
         font-size: 4rem !important;
         border-radius: 2rem !important;
     }
     .extra-hidden{
         color: black;
-        justify-content: space-between;
         text-align: right;  
+        justify-content: center;
         font-size: 3rem;
+        /* border: 2px solid black; */
+        padding: 14rem !important;
+        width: 82rem;
+        margin-left: 9rem;
+        border-radius: 4rem !important;
+        padding-bottom: 8rem !important;
     }
+    .urlName {
+        position: relative;
+        margin-top: 2rem;
+        left: -18rem;
+        top: -13rem;
+        font-size: 5rem;
+    }
+    .top_box{
+        text-align: center;
+        /* margin-top: 10rem; */
+    }
+    .text_btn{
+        align-items: center;
+        margin-left: 36rem;
+    }
+    
+
+
+
+
+
     .extra-hidden button{
-        display: none;
+        position: absolute;
         padding: 3rem 1rem;
         border-radius: .3rem;
+        margin-top: 6rem;
+        width: 70rem;
+        border-radius: 2rem;
     }
+    /* .copyBtn {
+        position: absolute;
+        margin-top: 6rem;
+        margin-left: -1rem;
+        width: 72rem;
+    } */
+
+
+
+
+
     .mq-2{
         font-size: 7rem;
         margin: 10rem  0 2rem 0;
@@ -193,14 +235,38 @@
     .btn{
         font-size: 3rem !important;
     }
-    /* .url_hdn{
-
-    } */
     .url_hdn{
-        font-size: 5rem;
-        
+        font-size: 4rem;
+        margin-left: 11rem !important;
         
     }
+    .me-2 {
+        padding-left: 3rem !important;
+        margin-right: 0.5rem!important;
+    }
+    .srch-1 img{
+        width: .1rem !important;
+    }
+    .srch-1 {
+        width: 85rem !important;
+        padding: 8rem 0;
+        border-radius: 2.7rem;
+        background-color: rgba(8, 1, 12, 0.486);
+        margin-left: 8rem;
+    }
+
+    .hidden_div a{
+        position: absolute;
+        margin-top: -4rem;
+        padding: 2rem; 
+        right: 27rem;
+        font-size: 4rem;      
+    }
+
+
+
+
+
 
 
 

@@ -19,6 +19,13 @@ body {
 .btn-1 {
   text-decoration: none;
 }
+.btn-1 {
+  background-color: hsl(180, 66%, 49%) !important;
+}
+
+
+
+
 .sign-box {
   border: 2px solid;
   padding: 0.3rem 1rem 0.3rem 1rem;
@@ -63,15 +70,16 @@ body {
 .btn-2 {
   background-color: hsl(180, 66%, 49%);
   border-radius: 0.5rem;
-  width: 6rem;
+  width: 8rem;
   text-decoration: none;
-  padding: 0.5rem 0 0 0.3rem;
+  padding: 0.5rem 0 0 1.3rem;
 }
 .btn-outline-success {
     color: white !important;
 }
 .srch-2 {
-  width: 85%;
+  width: 70% !important;
+  margin-left: 5rem;
 }
 .stat {
   text-align: center;
@@ -106,12 +114,12 @@ body {
 .btn-3 {
   padding: 0.5rem 2rem;
   border-radius: 2rem;
-  background-color: rgb(189, 189, 180);
+  background-color: hsl(180, 66%, 49%);
   color: white;
 }
 .txt-c {
   color: white;
-  background-color: black;
+  background-color: #000000e0;
 }
 /* end  */
 .advertising {
@@ -197,6 +205,7 @@ background-position: center;
   border-radius: 0.4rem;
   justify-content: space-between;
   text-align: right;
+  padding: .5rem;
 }
 .extra-hidden button {
   padding: 0.2rem 1rem;
@@ -227,6 +236,10 @@ background-position: center;
 }
 .pointer{
   cursor: pointer;
+  /* background-color: blue; */
+}
+.pointer:hover{
+  color: hsl(180, 66%, 49%);
 }
 
 .stick{
