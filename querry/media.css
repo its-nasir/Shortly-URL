@@ -68,9 +68,20 @@
         font-size: 5rem;
     }
     .top_box{
+        margin-top: 7rem;
         text-align: center;
-        /* margin-top: 10rem; */
+        border: 2px solid black;
+        padding: 33rem 0;
+        background-color: rgb(4, 4, 56);
+        border-radius: 2rem;
+        color: white !important;
+        /* font-size: 4rem !important;   */
     }
+    .nav-link{
+        color: white !important;
+        font-size: 6rem  !important;
+    }
+
     .text_btn{
         align-items: center;
         margin-left: 36rem;

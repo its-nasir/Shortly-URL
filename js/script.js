@@ -48,7 +48,5 @@ submit.addEventListener("click", (event) => {
   console.log(APi,"api calling");
 }else{
   urlD.classList.remove('url_1')
-
-
 }
 });
